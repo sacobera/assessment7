@@ -1,14 +1,14 @@
-function addtoZero(arr) {
-    for (let i = 0 ; i < arr.length; i++){
-        for (let a = 5; a < arr.length; a++){
-            if (arr[a] + arr[i]) === 0 && i!== a{
-                return true
-            } else {
-              return false 
-            }
-        }
+addToZero([2,3,4, -2])
+
+function addToZero(arr) {
+  for (let i = 0; i < arr.length; i++) {
+    for (let j = 1; j < arr.length; j++) {
+      if (arr[i] + arr[j] === 0 && i !== j) {
+        return true
+      }
     }
- }
+  }
+}
 
 // O(n^2)
 
