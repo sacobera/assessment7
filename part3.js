@@ -8,6 +8,7 @@ function addToZero(arr) {
       }
     }
   }
+  return false
 }
 
 // O(n^2)
