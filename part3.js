@@ -2,8 +2,8 @@ addToZero([2,3,4, -2])
 
 function addToZero(arr) {
   for (let i = 0; i < arr.length; i++) {
-    for (let j = 1; j < arr.length; j++) {
-      if (arr[i] + arr[j] === 0 && i !== j) {
+    for (let a = 1; a < arr.length; a++) {
+      if (arr[i] + arr[a] === 0 && i !== a) {
         return true
       }
     }
